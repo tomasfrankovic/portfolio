@@ -1,26 +1,32 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
+    new ProjectData("project-1", "Football Kicks", "img/projects/kicks-preview.gif", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     <strong>Football Kicks</strong> is a multi-platform online video game I've worked on since 2019 as a gameplay and multiplayer engineer. 
+     I came to the team in the very early phase of the development and, as a result, designed and developed whole gameplay and multiplayerpart from scratch.
+     The most challenging part was adapting goalkeeper animations to actual position and speed of flying ball to be able to catch the ball at any time. 
     </div>
+    <!---
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
     </div>
+    --->
     <div class="paragraph center">
         <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
     </div>
 
     <div class="paragraph">
-        Main features :
+        My work involved:
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Gameplay design and code implemenation</li>
+        <li>Cloud Content Delivery for downloading content without a new build</li>
+        <li>Goalkeeper animation adjusting</li>
+        <li>Custom coded ball physics</li>
+        <li>Gameplay UI</li>
+        <li>Partial MainMenu UI</li>
+        <li>Others (Onboarding, Localization, Audio, Notifications)</li>
         </ul>
     </div>
 
@@ -28,7 +34,7 @@ export default [
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
     </div>
-    `, "#23bd69", true),
+    `, "#23bd69", true, true),
     new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
     <div class="paragraph">
         <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
