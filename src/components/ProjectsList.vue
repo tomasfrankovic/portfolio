@@ -75,6 +75,10 @@ export default Vue.extend({
   overflow: hidden;
 }
 
+.high {
+  height: 900px;
+}
+
 .project-item-image {
   background-size: cover;
   background-position: center;
