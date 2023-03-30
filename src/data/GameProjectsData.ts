@@ -28,6 +28,7 @@ export default [
         My work involved:
         <ul>
         <li>Gameplay design and code implemenation</li>
+        <li>Memory optimization</li>
         <li>Cloud Content Delivery for downloading content without a new build</li>
         <li>Goalkeeper animation adjusting</li>
         <li>Custom coded ball physics</li>
@@ -114,6 +115,84 @@ export default [
     <img class="pc-screenshot" src="img/projects/WritersCoince-4.png" alt="Gaming Shop Screenshot" />
     </div>
     `, "#5B3256"),
+
+    new ProjectData("project-1", "Clean The Road", "img/projects/CleanTheRoad-preview.gif", 
+    `
+    <div class="paragraph">
+    <strong>Game made for Inlogic Games s.r.o</strong> </br> </br>
+     <strong>Clean the Road</strong> is a top-down snowplow hypercasual game. 
+     As a snowplow driver, your objective is to remove snow from a given driveway avoiding obstacles and guiding other cars.
+     This was a really simple project and it took less than a month to complete. 
+    </div>
+    <!---
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="paragraph center">
+       <button class="btn" onclick="window.open('https://play.google.com/store/apps/details?id=com.InlogicSports.FootballKicks','_blank');">
+        <img src="img/projects/google-play.svg" alt="Play Store badge" width="30" height="30" padding/> Android  <img src="img/projects/link.svg" alt="Play Store badge" width="30" height="30" padding/>
+       </button>
+       <button class="btn" onclick="window.open('https://apps.apple.com/sk/app/football-kicks-stars-strike/id1594186141','_blank');">
+        <img src="img/projects/app-store-ios.svg" alt="IOS Store badge" width="30" height="30" padding/> IOS  <img src="img/projects/link.svg" alt="Play Store badge" width="30" height="30" padding/>
+       </button>
+    </div>
+    --->
+
+    <div class="paragraph">
+        My work involved:
+        <ul>
+        <li>Basically everithing except graphics and design
+            <ul>
+            <li>UI and gameplay code</li>
+            <li>Localization implementation</li>
+            <li>Onboarding implementation</li>
+            <li>Audio implementation</li>
+            <li>Animation and effects design and code</li>
+            </ul>
+        </li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+        <img class="phone-screenshot" src="img/projects/CleanTheRoad-1.jpg" alt="Menu Screenshot" />
+        <img class="phone-screenshot" src="img/projects/CleanTheRoad-2.jpg" alt="Gameplay Screenshot" />
+        <img class="phone-screenshot" src="img/projects/CleanTheRoad-3.jpg" alt="Gameplay Screenshot" />
+    </div>
+    `, "#03bafc", true, false),
+
+    new ProjectData("project-2", "Don't freeze", "img/projects/DontFreeze-preview.gif", `
+    <strong>Personal project</strong> </br> </br>
+
+    <div class="paragraph">
+        <strong>Don't Freeze</strong> is a game created as a submission to the Wowie Jam 3.0.
+        This game was created in 2 days.
+        It's a logical game, where you have to figure out what the mechanic is and then solve the level.
+    </div>
+    <!---<div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>--->
+
+    <div class="paragraph">
+        My work involved:
+        <ul>
+            <li>Everything... (Design, Code, Audio)</li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+       <button class="btn" onclick="window.open('https://tomento.itch.io/dont-freeze','_blank');">
+         itch.io  <img src="img/projects/link.svg" alt="Play Store badge" width="30" height="30" padding/>
+       </button>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/DontFreeze-1.png" alt="DontFreeze Screenshot" />
+    <img class="pc-screenshot" src="img/projects/DontFreeze-2.png" alt="DontFreeze Screenshot" />
+    <img class="pc-screenshot" src="img/projects/DontFreeze-3.png" alt="DontFreeze Screenshot" />
+    <img class="pc-screenshot" src="img/projects/DontFreeze-4.png" alt="DontFreeze Screenshot" />
+    </div>
+    `, "#0362fc", false, true),
 
     new ProjectData("project-3", "dalsie hry akoze", "img/projects/project-5-icon.png", `
     <div class="paragraph">

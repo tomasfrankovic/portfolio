@@ -9,7 +9,7 @@
         I started learning how to code and how to make games in high school and released my first "janky" games in 2017 on Google Play.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on <router-link to="/game-projects">games</router-link> (some of them are my personal projects and some are from gamejams or from work), on <router-link to="/other-projects">other projects</router-link> which are apps from school projecs.</div>
+      <div style="margin-top: 20px;">I've worked on these <router-link to="/game-projects">games</router-link> (some of them are my personal projects and some are from gamejams or from work) and on the <router-link to="/other-projects">other projects</router-link> which are apps from school projecs.</div>
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:tomko.franky@gmail.com">tomko.franky@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
