@@ -359,7 +359,7 @@ export default [
         <img class="phone-screenshot" src="img/projects/Amazing-2.jpg" alt="Gameplay Screenshot" />
         <img class="phone-screenshot" src="img/projects/Amazing-3.jpg" alt="Gameplay Screenshot" />
     </div>
-    `, "#262626", true, false),
+    `, "#383838", true, false),
 
     new ProjectData("project-2", "Infinity Racing", "img/projects/InfinityRacing-preview.gif", `
     <strong>Personal protoype project</strong> </br> </br>
@@ -406,16 +406,92 @@ export default [
     <img class="pc-screenshot" src="img/projects/InifnityRacing-4.png" alt="InifnityRacing Screenshot" />
     </div>
     `, "#9D7087", false, true),
-
-    new ProjectData("project-3", "dalsie hry akoze", "img/projects/project-5-icon.png", `
+    
+    new ProjectData("project-1", "Bodybuilder Simulator", "img/projects/bodybuilder-preview.png", 
+    `
     <div class="paragraph">
-        <strong>Nazov hry asi</strong> lorem ipsum dajme tomu.
+    <strong>Personal project</strong> </br> </br>
+
+     <strong>Bodybuilder Simulator</strong> was one of my first games released on gplay. 
+     The goal of this game was to exercise like a bodybuilder, choose right suplements and food and bouild yourself up.
+    </div>
+
+    <!---
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+    <div class="paragraph center">
+       <button class="btn" onclick="window.open('https://play.google.com/store/apps/details?id=com.InlogicSports.FootballKicks','_blank');">
+        <img src="img/projects/google-play.svg" alt="Play Store badge" width="30" height="30" padding/> Android  <img src="img/projects/link.svg" alt="Play Store badge" width="30" height="30" padding/>
+       </button>
+       <button class="btn" onclick="window.open('https://apps.apple.com/sk/app/football-kicks-stars-strike/id1594186141','_blank');">
+        <img src="img/projects/app-store-ios.svg" alt="IOS Store badge" width="30" height="30" padding/> IOS  <img src="img/projects/link.svg" alt="Play Store badge" width="30" height="30" padding/>
+       </button>
+    </div>
+    --->
+
+    <div class="paragraph">
+        My work involved:
+        <ul>
+            <li>Everything... (Design, Graphics, Code, Audio)</li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/BodybuilderSimulator-1.jpg" alt="BodybuilderSimulator Screenshot" />
+    <img class="pc-screenshot" src="img/projects/BodybuilderSimulator-2.jpg" alt="BodybuilderSimulator Screenshot" />
+    <img class="pc-screenshot" src="img/projects/BodybuilderSimulator-3.jpg" alt="BodybuilderSimulator Screenshot" />
+    </div>
+    `, "#8634eb"),
+
+    new ProjectData("project-2", "City Of Infected", "img/projects/CityOfInfected-preview.gif", `
+    <strong>School GameJam</strong> </br> </br>
+
+    <div class="paragraph">
+        <strong>City Of Infected</strong> is a game made during college GameJam (our team placed 4th winning place for an A grade). 
+        GameJam theme was virus (while covid times), so we decided to make a game like this.
+        Despite it was a team project I had a task to make this game, while others took of the other things.
+        Goal of this game is to complete all task without infecting yourself or infecting others around you.
+
+    </div>
+
+    <div class="paragraph">
+        My work involved:
+        <ul>
+            <li>Everything...</li>
+            <ul>
+                <li>Code</li>
+                <li>Design</li>
+                <li>Audio</li>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+       <button class="btn" onclick="window.open('https://devpost.com/software/tjjd-team-gamejam','_blank');">
+       devpost  <img src="img/projects/link.svg" alt="Play Store badge" width="30" height="30" padding/>
+       </button>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/CityOfInfected-1.jpg" alt="CityOfInfected Screenshot" />
+    <img class="pc-screenshot" src="img/projects/CityOfInfected-2.jpg" alt="CityOfInfected Screenshot" />
+    <img class="pc-screenshot" src="img/projects/CityOfInfected-3.jpg" alt="CityOfInfected Screenshot" />
+    <img class="pc-screenshot" src="img/projects/CityOfInfected-4.jpg" alt="CityOfInfected Screenshot" />
+    </div>
+    `, "#dbb563", false, true),
+
+
+    new ProjectData("project-3", "Don't click here", "img/projects/project-5-icon.png", `
+    <div class="paragraph">
+        <strong>Told you...</strong>
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div class="paragraph">
+    <!--<div class="paragraph">
         My work involved:
         <ul>
         <li>Some stuff</li>
@@ -431,8 +507,8 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
+    -->
     `, "#383838"),
-    
     /*new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
     <div class="paragraph">
     <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
